@@ -1,0 +1,46 @@
+.grid {
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr ) );
+  grid-gap: 1em;
+list-style: none;
+}
+
+.grid {
+  /* display: flex; */
+}
+
+.grid > li {
+  background: lightgray;
+  /*min-height: 200px;*/
+  width: 100%;
+}
+.line {
+    fill: none;
+    stroke: red;
+    stroke-width: 3;
+}
+
+.overlay {
+
+  pointer-events: all;
+}
+
+.dot {
+    fill: #ffab00;
+    stroke: red;
+}
+
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #6F257F;
+  stroke-width: 5px;
+}
+  
+.hover-line {
+  stroke: #6F257F;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
